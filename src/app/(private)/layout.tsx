@@ -12,7 +12,9 @@ export default function RootLayout({
           <Sidebar />
         </nav>
       </aside>
-      {children}
+      <div className="py-6 px-4 h-full border-5 border-red-100 flex-1 overflow-scroll">
+        {children}
+      </div>
     </main>
   );
 }
